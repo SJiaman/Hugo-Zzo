@@ -1,13 +1,13 @@
-logoText = "Zzo"
+logoText = "Shijin's Blog"
 logoType = "short" # long, short
-description = "The Zzo theme for Hugo example site."
+description = "一个关注大数据、云计算、golang、微服务等技术的个人博客。"
 custom_css = []
 custom_js = []
 useFaviconGenerator = true # https://www.favicon-generator.org/
 meta_image = ""
 themecolor = ""
 
-themeOptions = ["dark", "light", "hacker", "solarized", "kimbie"]
+themeOptions = [ "solarized", "light", "hacker"]
 notAllowedTypesInHome = ["contact", "talks", "about", "showcase", "publication", "presentation", "resume"]
 notAllowedTypesInHomeSidebar = ["about", "archive", "showcase", "publication", "presentation", "resume"]
 notAllowedTypesInArchive = ["about", "talks", "showcase", "publication", "presentation", "resume"]
@@ -18,7 +18,7 @@ enableUiAnimation = true
 hideSingleContentsWhenJSDisabled = false
 
 # header
-homeHeaderType = "text" # text, img, slide
+homeHeaderType = "" # text, img, slide
 
 # menu
 showMobileMenuTerms = ["tags", "categories", "series"]
@@ -33,30 +33,30 @@ enableWhoami = true
 summaryShape = "classic" # card, classic, compact
 searchResultPosition = "main" # side, main
 archiveGroupByDate = "2006" # "2006-01": group by month, "2006": group by year
-archivePaginate = 13
+archivePaginate = 8
 paginateWindow = 1
 talksPaginate = 5
 talksGroupByDate = "2006"
 pubPaginate = 20
 
 # whoami
-myname = "zzossig"
-email = "zzossig@gmail.com"
-whoami = "Web Developer"
+myname = "世今"
+email = "2433313140@qq.com"
+whoami = "数据攻城师"
 bioImageUrl = ""
 useGravatar = false
-location = "Seoul, Korea"
-organization = "Hugo"
-link = "https://zzossig.io/ko"
+location = "Guiyang, China"
+organization = "GZU"
+# link = "https://zzossig.io/ko"
 
 # sidebar
 enableBio = true
 enableBioImage = true
 enableSidebar = true
 enableSidebarTags = true
-enableSidebarSeries = true
+enableSidebarSeries = false
 enableSidebarCategories = true
-enableHomeSidebarTitles = true
+enableHomeSidebarTitles = false
 enableListSidebarTitles = true
 enableToc = true
 hideToc = false
@@ -70,9 +70,9 @@ enableSidebarPostsByOrder = false
 
 # footer
 showPoweredBy = true
-showFeedLinks = true
-showSocialLinks = true
-enableLangChange = true
+showFeedLinks = false
+showSocialLinks = false
+enableLangChange = false
 enableThemeChange = true
 
 # service
@@ -89,7 +89,7 @@ updateFrequency = ""
 fullContents = false
 
 # comment
-enableComment = true
+enableComment = false
 disqus_shortname = ""
 commento = false
 
@@ -141,36 +141,36 @@ commento = false
   dataAttrs = "" # "data-isso='https://isso.example.com' data-isso-require-author='true'"
 
 [socialOptions]
-  email = "mailto:your@email.com"
-  phone = ""
-  facebook = "http://example.org/"
-  twitter = "http://example.org/"
-  github = "https://github.com/zzossig/hugo-theme-zzo"
-  stack-overflow = ""
-  instagram = ""
-  google-plus = ""
-  youtube = ""
-  medium = ""
-  tumblr = ""
-  linkedin = ""
-  pinterest = ""
-  stack-exchange = ""
-  telegram = ""
-  steam = ""
-  weibo = ""
-  douban = ""
-  csdn = ""
-  gitlab = ""
-  mastodon = ""
-  jianshu = ""
-  zhihu = ""
-  signal = ""
-  whatsapp = ""
-  matrix = ""
-  xmpp = ""
-  dev-to = ""
-  gitea = ""
-  google-scholar = ""
+  email = "2433313140@qq.com"
+  # phone = ""
+  # facebook = "http://example.org/"
+  # twitter = "http://example.org/"
+  github = "https://github.com/SJiaman"
+  # stack-overflow = ""
+  # instagram = ""
+  # google-plus = ""
+  # youtube = ""
+  # medium = ""
+  # tumblr = ""
+  # linkedin = ""
+  # pinterest = ""
+  # stack-exchange = ""
+  # telegram = ""
+  # steam = ""
+  # weibo = ""
+  # douban = ""
+  # csdn = ""
+  # gitlab = ""
+  # mastodon = ""
+  # jianshu = ""
+  # zhihu = ""
+  # signal = ""
+  # whatsapp = ""
+  # matrix = ""
+  # xmpp = ""
+  # dev-to = ""
+  # gitea = ""
+  # google-scholar = ""
 
 [donationOptions]
   enable = false
@@ -180,11 +180,12 @@ commento = false
   patreon = ""
 
 # possible share name: ["facebook","twitter", "reddit", "linkedin", "tumblr", "weibo", "douban", "line"]
-[[share]]
-  name = "facebook"
-  username = ""
-[[share]]
-  name = "twitter"
+
+# [[share]]
+#   name = "facebook"
+#   username = ""
+# [[share]]
+#   name = "twitter"
 
 [[footerLinks]]
   name = ""
@@ -192,3 +193,6 @@ commento = false
 [[footerLinks]]
   name = ""
   link = ""
+
+[beian]
+  beian = "黔ICP备19011824号-1"

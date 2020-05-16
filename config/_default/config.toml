@@ -1,18 +1,18 @@
-baseURL = "http://example.org"
-title = "Hugo Zzo Theme"
+baseURL = "https://shijin.fun/"
+title = "Shijin's Blog"
 theme = "zzo"
 
 defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = true
+defaultContentLanguageInSubdir = false
 hasCJKLanguage = true
 
 summaryLength = 70
 buildFuture = true
 
-copyright = "&copy;{year}, All Rights Reserved"
+copyright = "Copyright &copy;2019-{year}, Shijin All Rights Reserved"
 timeout = 10000
 enableEmoji = true
-paginate = 13
+paginate = 8
 rssLimit = 100
 
 enableGitInfo = false
