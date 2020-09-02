@@ -1,13 +1,16 @@
-[en]
-  title = "Shijin's Blog"
-  languageName = "English"
-  weight = 1
-  languagedir = "ltr"
-  contentdir = "content/en"
-
 [zh]
   title = "Shijin's Blog"
   languageName = "简体中文"
   weight = 1
   languagedir = "ltr"
   contentdir = "content/zh"
+
+
+# [en]
+#   title = "Shijin's Blog"
+#   languageName = "English"
+#   weight = 1
+#   languagedir = "ltr"
+#   contentdir = "content/en"
+
+

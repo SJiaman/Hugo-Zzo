@@ -1,0 +1,57 @@
+[[main]]
+  identifier = "posts"
+  name = "博客"
+  url = "posts"
+  weight = 1
+
+[[main]]
+  identifier = "archive"
+  name = "归档"
+  url = "archive"
+  weight = 2
+
+[[main]]
+  identifier = "showcase"
+  name = "我的项目"
+  url = "showcase"
+  weight = 3
+
+# [[main]]
+#   identifier = "gallery"
+#   name = "Gallery"
+#   url = "gallery"
+#   weight = 7
+    
+# [[main]]
+#   parent = "gallery"
+#   name = "Cartoon"
+#   url = "gallery/cartoon"
+
+# [[main]]
+#   parent = "gallery"
+#   name = "Photo"
+#   url = "gallery/photo"
+
+[[main]]
+  identifier = "books"
+  name = "电子书"
+  url = "https://github.com/SJiaman/cs-books"
+  weight = 4
+
+# [[main]]
+#   identifier = "friends"
+#   name = "友链"
+#   url = "friends"
+#   weight = 4
+
+[[main]]
+  identifier = "about"
+  name = "关于我"
+  url = "about"
+  weight = 5
+
+# [[main]]
+#   identifier = "publication"
+#   name = "Pub"
+#   url = "publication"
+#   weight = 6

@@ -2,7 +2,7 @@ baseURL = "https://shijin.fun/"
 title = "Shijin's Blog"
 theme = "zzo"
 
-defaultContentLanguage = "en"
+defaultContentLanguage = "zh"
 defaultContentLanguageInSubdir = false
 hasCJKLanguage = true
 
